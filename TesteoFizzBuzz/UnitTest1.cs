@@ -20,24 +20,28 @@ namespace TesteoFizzBuzz
             pruebaFizzBuzz.FizzBuzz(3);
         }
 
+        [TestMethod]
         public void PrintFizzIfReceiveAMultiplyOf3()
         {
             PruebaFizzBuzz pruebaFizzBuzz = new PruebaFizzBuzz();
             pruebaFizzBuzz.FizzBuzz(3);
         }
 
+        [TestMethod]
         public void PrintBuzzIfReceiveA5()
         {
             PruebaFizzBuzz pruebaFizzBuzz = new PruebaFizzBuzz();
             pruebaFizzBuzz.FizzBuzz(5);
         }
 
+        [TestMethod]
         public void PrintBuzzIfReceiveAMultiplyOf5()
         {
             PruebaFizzBuzz pruebaFizzBuzz = new PruebaFizzBuzz();
             pruebaFizzBuzz.FizzBuzz(5);
         }
 
+        [TestMethod]
         public void PrintFizzBuzzIfReceiveAMultiplyOf3and5()
         {
             PruebaFizzBuzz pruebaFizzBuzz = new PruebaFizzBuzz();
